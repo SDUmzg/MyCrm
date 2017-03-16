@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查询文档</title>
+	<link rel="stylesheet" href="../mycss/reset.css">
+</head>
+<body>
+	<div id="container">
+		<form action="find_data.php" method="get">
+			<table>
+				<tr>
+					<td>
+						<select name="storage_choice" id="mystorage_choice">
+						<option value="id">身份证号</option>
+						<option value="doc_name">文件名</option>
+						</select>
+						&nbsp:
+					</td>
+					<td><input type="text" name="mychoice">&nbsp&nbsp&nbsp</td>
+					<td><input type="submit" value="查询"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

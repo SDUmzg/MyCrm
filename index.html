@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>业务员登陆</title>
+</head>
+<body>
+	<div id="container">
+		<form action="index.php" method="post">
+			<table>
+				<tr>
+					<td>业务编号：</td>
+					<td><input type="text" name="id" value="0001"></td>
+				</tr>
+				<tr>
+					<td>密码：</td>
+					<td><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<td>职位：</td>
+					<td>
+						<select name="job" id="myjob">
+						<option value="业务员">业务员</option>
+						<option value="分区经理">分区经理</option>
+						<option value="总经理">总经理</option>
+						</select>
+						&nbsp:
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" value="业务登陆"></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+#catalog{
+		height: 128px;
+}
+#choice{
+		margin-left: 6px;
+}
+#choice li{
+	float: left;
+	height: 37px;
+	margin-right: 2px;
+	width: 89px;
+	background: gray;
+	
+}
+#choice  a{
+	line-height: 37px;
+	font-size: 15px;
+	font-family: '微软雅黑';
+	color: black;
+	display: block;
+	width: 89px;
+	height: 37px;
+	text-align: center;
+}
+#choice  a:hover{
+	color: white;
+	background: url(../image/nav_on.gif);
+} 

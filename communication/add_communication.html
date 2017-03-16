@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加通讯信息</title>
+</head>
+<body>
+	<div id="container">
+		<form action="add_handle.php"  method="post" >
+		<table>
+			<tr>
+				<td><input type="radio" name="choice" value="phone" checked="checked">通话&nbsp</td>
+				<td>&nbsp<input type="radio" name="choice" value="mail">邮件</td>
+			</tr>
+			<tr>
+				<td>身份证号：</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td  colspan="2"><input type="submit" value="添加"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	
+</body>
+</html>

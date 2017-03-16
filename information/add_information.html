@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>客户登记</title>
+</head>
+<body>
+	<form action="add_handle.php" method="post">
+		<table>
+			<tr>
+				<td>姓名:</td>
+				<td><input type="test" name="username" /></td>
+			</tr>
+			<tr>
+				<td>身份证号:</td>
+				<td><input type="test" name="id" /></td>
+			</tr>
+			<tr>
+				<td>性别：</td>
+				<td>男:<input type="radio" name="sex" value="男" checked="checked"> &nbsp;女:<input type="radio" name="sex" value="女"></td>
+			</tr>
+			<tr>
+				<td>生日:</td>
+				<td><input type="test" name="birthday" /></td>
+			</tr>
+			<tr>
+				<td>行业:</td>
+				<td><input type="test" name="industry" /></td>
+			</tr>
+			<tr>
+				<td>区域:</td>
+				<td><input type="test" name="area" /></td>
+			</tr>
+			<tr>
+				<td>等级:</td>
+				<td>		<select name="grade_level" id="customer_grade_level">
+				<option value="1">一级</option>
+				<option value="2">二级</option>
+				<option value="3">三级</option>
+				<option value="4">四级</option>
+			</select></td>
+			</tr>
+			<tr>
+				<td>手机号码:</td>
+				<td><input type="test" name="phone_number" /></td>
+			</tr>
+			<tr>
+				<td>邮箱地址:</td>
+				<td><input type="test" name="mail_address" /></td>
+			</tr>
+			<tr>
+				<td>业务员号:</td>
+				<td><input type="test" name="counterman_number" value="0001"/></td>
+			</tr>
+			<tr>
+				<td colspan="2" style=" text-align:center;">
+					<input type="submit" value="提交">
+				</td>
+			</tr>
+		</table>
+	</form>
+	<div><a href="information.html" >返回上一层</a></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#continer{
+	width: 
+	margin: 0 auto;
+}
+#header{
+	height: 100px;
+	background: #EEE;
+	text-align: center;
+	line-height: 100px;
+	font-size: 40px;
+	font-family: 'Microsoft Yahei',SimHei,sans-serif;
+	border-style: solid;
+  	border-width: 5px 5px 0 5px;
+ 	border-color: #888;
+}

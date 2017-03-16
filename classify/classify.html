@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>智能化分类</title>
+</head>
+<body>
+	<div id="container">
+		<form action="find_classify.php" method="get">
+			<table>
+				<tr>
+					<td>等级</td>
+					<td><select name="grade_level" id="customer_grade_level">
+					<option value="">全部</option>
+					<option value="1">一级</option>
+					<option value="2">二级</option>
+					<option value="3">三级</option>
+					<option value="4">四级</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>行业 :</td>
+					<td><input type="test" name="industry" /></td>
+				</tr>
+					<tr>
+					<td>地区 :</td>
+					<td><input type="test" name="area"  /></td>
+					</tr>
+					<tr>
+					<td>性别 :</td>
+					<td>不限：<input type="radio" name="sex" value="" checked="checked"> &nbsp;男：<input type="radio" name="sex" value="男" > &nbsp;女:<input type="radio" name="sex" value="女"></td>
+				</tr>
+				<tr>
+					<td colspan="2" style=" text-align:center;">
+						<input type="submit" value="提交">
+						</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
